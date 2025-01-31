@@ -94,6 +94,7 @@ public class VideoObjLightDetect {
             key = HighGui.waitKey(20);
         }
 
+        capture.release();
         HighGui.destroyAllWindows();
         System.exit(0);
     }
